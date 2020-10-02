@@ -46,7 +46,7 @@ jobs:
       shell: bash -l {0}
       run: |
           ls build/bin
-          echo "::add-path::D:/a/entwine/entwine/build/bin/googletest-release-1.10.0"
+          echo "::add-path::D:/a/entwine/entwine/build/bin/"
 
     - name: Test
       shell: bash -l {0}
