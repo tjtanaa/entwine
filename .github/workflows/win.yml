@@ -45,17 +45,13 @@ jobs:
     - name: Paths
       shell: bash -l {0}
       run: |
-          echo "::add-path::D:/a/entwine/entwine/build/gtest-1.8.0"
+          ls build
+          echo "::add-path::D:/a/entwine/entwine/build/googletest-release-1.10.0"
 
     - name: Test
       shell: bash -l {0}
       working-directory: ./build
       run: |
           source ../scripts/ci/win/test.sh
-
-    - name: Examples
-      shell: bash -l {0}
-      run: |
-          source ./scripts/ci/win/examples.sh
 
 
