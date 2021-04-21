@@ -1,0 +1,10 @@
+{
+    "input": ["/media/data4/tjtanaa/LAS_RAW_DATA/Fo_Tan/0.las",
+        "/media/data4/tjtanaa/LAS_RAW_DATA/Fo_Tan/1.las",
+        "/media/data4/tjtanaa/LAS_RAW_DATA/Fo_Tan/2.las",
+        "/media/data4/tjtanaa/LAS_RAW_DATA/Fo_Tan/3.las",
+        "/media/data4/tjtanaa/LAS_RAW_DATA/Fo_Tan/4.las"],
+    "output": "/media/data4/tjtanaa/entwine_dataset/Fo_Tan",
+    "bounds": [0, 0, 0, 1000, 1000, 100],
+    "subset": { "id": 1, "of": 8 } 
+}
